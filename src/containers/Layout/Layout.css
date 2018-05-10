@@ -1,0 +1,13 @@
+.Layout {
+  /* border: 1px solid black; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* used to set the width of the content */
+/* all components will be wrapped inside this div */
+.Layout-inner {
+  width: 80%;
+  margin: 0 auto;
+}

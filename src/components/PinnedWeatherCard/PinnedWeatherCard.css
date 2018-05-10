@@ -1,0 +1,16 @@
+.PinnedWeatherCard {
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color: #B7E1FC;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding: 10px;
+  align-items: center;
+  width: 350px;
+  height: 400px;
+}
+
+.PinnedWeatherCard:hover {
+  background-color: aliceblue;
+}

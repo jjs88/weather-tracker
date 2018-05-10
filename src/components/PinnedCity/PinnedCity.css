@@ -1,0 +1,26 @@
+.PinnedCity {
+  color: #2c3e50;
+  padding: 10px;
+  transform: translateX(0);
+  animation: .5s pinnedCity ease-in ;
+}
+
+.PinnedCity__item {
+  margin-left: 5px;
+}
+
+.PinnedCity__remove:hover {
+  color: #e74c3c;
+  cursor: pointer;
+}
+
+
+@keyframes pinnedCity {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+  }
+}

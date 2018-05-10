@@ -1,0 +1,10 @@
+.CurrentWeather {
+  border-radius: 2px;
+  color: white;
+  font-size: 130%;
+  background-color: #373c44;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 15px;
+  justify-content: space-between;
+}

@@ -1,0 +1,17 @@
+.BlankPinCard {
+  border: 1px solid #ecf0f1;
+  border-radius: 2px;
+  background-color: #bdc3c7;
+  font-size: 150%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  width: 350px;
+  height: 400px;
+}
+
+.BlankPinCard:hover {
+  background-color: aliceblue;
+}

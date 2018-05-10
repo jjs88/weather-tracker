@@ -1,0 +1,28 @@
+@import './containers/Layout/Layout.css';
+@import './components/CurrentWeather/CurrentWeather.css';
+@import './components/CurrentWeather/CurrentForecast/CurrentForecast.css';
+@import './components/CurrentWeather/CurrentExtended/CurrentExtended.css';
+@import './components/WeatherDetail/WeatherDetail.css';
+@import './components/ui/Spinner/Spinner.css';
+@import './components/ui/Button/Button.css';
+@import './components/ui/Link/Link.css';
+@import './components/PinCityForm/PinCityForm.css';
+@import './components/PinCityForm/PinCityFormItem/PinCityFormItem.css';
+@import './containers/Settings/Settings.css';
+@import './components/PinnedCity/PinnedCity.css';
+@import './containers/PinnedCities/PinnedCities.css';
+@import './components/PinnedWeatherCard/PinnedWeatherCard.css';
+@import './containers/PinnedWeather/PinnedWeather.css';
+@import './components/PinnedWeatherCard/PinnedWeatherItem/PinnedWeatherItem.css';
+@import './containers/PinnedDetail/PinnedDetail.css';
+@import './containers/WeatherDetails/WeatherDetails.css';
+@import './containers/Dashboard/Dashboard.css';
+@import './components/BlankPinCard/BlankPinCard.css';
+
+body {
+  background-color: #ecf0f1;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}

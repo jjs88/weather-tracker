@@ -1,0 +1,40 @@
+.WeatherDetail {
+  border: 1px solid black;
+  color: #2c3e50;
+  background-color: #B7E1FC;
+  border-radius: 5px;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  animation: .5s weatherDetail ease-in;
+  transition: all .2s ease-in;
+}
+
+.WeatherDetail:hover {
+  background-color: aliceblue;
+}
+
+.WeatherDetail-flex-row {
+  display: flex;
+}
+
+.WeatherDetail__item {
+  font-size: 130%;
+  padding: 10px;
+}
+
+.WeatherDetail__temp {
+  font-size: 5rem;
+}
+
+
+
+@keyframes weatherDetail {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}

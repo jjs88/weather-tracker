@@ -1,0 +1,13 @@
+.Dashboard {
+  animation: .3s dashboard ease-in;
+}
+
+@keyframes dashboard {
+  0% { opacity: 0; }
+  100% { opacity: 1;}
+}
+
+.Dashboard__EditPins {
+  font-size: 140%;
+  float: right;
+}

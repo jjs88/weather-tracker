@@ -1,0 +1,9 @@
+.PinnedWeather {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+
+.PinnedWeather__NoPins {
+  font-size: 150%;
+}

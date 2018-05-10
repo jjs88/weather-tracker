@@ -1,0 +1,13 @@
+.PinnedCities {
+  height: 125px;
+}
+
+.PinnedCities__select {
+  animation: .3s select ease-in;
+}
+
+
+@keyframes select {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}

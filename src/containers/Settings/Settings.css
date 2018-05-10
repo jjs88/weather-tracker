@@ -1,0 +1,17 @@
+.Settings {
+  padding: 20px;
+  animation: .3s settings ease-in;
+  /* transform: translateX(0); */
+}
+
+
+@keyframes settings {
+  0%{ 
+    opacity: 0;
+    /* transform: translateX(-100%); */
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
