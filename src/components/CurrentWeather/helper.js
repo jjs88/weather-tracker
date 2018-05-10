@@ -5,7 +5,7 @@ export const fetchCurrentWeather = (props) => {
   if('geolocation' in navigator) {
       navigator.geolocation.getCurrentPosition((async (position) => {
         const {latitude:lat, longitude:long} = position.coords;
-        const weatherData = await axios(`http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&APPID=${API_KEY}`);
+        const weatherData = await axios(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&APPID=${API_KEY}`);
         // destructure weather data
         const {
           dt, 

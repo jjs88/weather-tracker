@@ -24,7 +24,7 @@ class currentExtended extends Component {
     if('geolocation' in navigator) {
         navigator.geolocation.getCurrentPosition((async (position) => {
         const {latitude:lat, longitude:long} = position.coords;
-        const {data: { list }} = await axios(`http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${long}&APPID=${API_KEY}`);
+        const {data: { list }} = await axios(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${long}&APPID=${API_KEY}`);
         const newList = list.filter( (item, idx) => idx < 8 )
         .map(item => {
           const {

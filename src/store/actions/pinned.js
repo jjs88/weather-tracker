@@ -13,7 +13,7 @@ export const removePin = (city) => {
 export const addPin = (zip) => {
   return async (dispatch) => {
     //CURRENT WEATHER DATA
-    const weatherData = await axios(`http://api.openweathermap.org/data/2.5/weather?zip=${zip},us&APPID=${API_KEY}`);
+    const weatherData = await axios(`https://api.openweathermap.org/data/2.5/weather?zip=${zip},us&APPID=${API_KEY}`);
       // destructure weather data
       const {
         dt, 
@@ -30,7 +30,7 @@ export const addPin = (zip) => {
       const current = {dt, name, temp, description};
 
       //DETAIL WEATHER DATA
-      const {data: { list }} = await axios(`http://api.openweathermap.org/data/2.5/forecast?zip=${zip},us&APPID=${API_KEY}`);
+      const {data: { list }} = await axios(`https://api.openweathermap.org/data/2.5/forecast?zip=${zip},us&APPID=${API_KEY}`);
       const detail = list.filter( (item, idx) => idx < 8 )
       .map(item => {
         const {
