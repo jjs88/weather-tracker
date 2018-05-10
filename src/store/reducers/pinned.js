@@ -8,7 +8,8 @@ const reducer = (state = [], action) => {
         action.payload
       ]
     case actionType.REMOVE_PIN:
-      const newState = state.filter(item => item.name !== action.payload);
+      const copy = [...state];
+      const newState = copy.filter(item => item.name !== action.payload);
       return [
         ...newState
       ]
