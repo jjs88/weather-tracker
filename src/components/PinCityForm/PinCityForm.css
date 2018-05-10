@@ -8,5 +8,12 @@
 .Invalid {
   color:#e74c3c;
   font-size: 80%;
+  display: flex;
+  align-items: center;
   margin-bottom: 5px;
+}
+
+.Error_Warning {
+  font-size: 130%;
+  margin-right: 5px;  
 }

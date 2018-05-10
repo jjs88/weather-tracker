@@ -27,7 +27,10 @@ class PinCityForm extends Component {
 
   errorMsg = () => {
     const { message } = this.state;
-    return <div className="Invalid">{message}</div>;
+    return <div className="Invalid">
+      <span className="Error_Warning">&#x26A0;</span>
+      <span>{message}</span>
+    </div>;
   }
 
   render() {
